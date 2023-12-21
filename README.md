@@ -1,5 +1,4 @@
 # 📰🔍 LA Times Search Engine Project
-## Matthew Chan<br>
 
 ## 💡 Summary:<br>
 The project involves the development of a search engine implemented through multiple Java programs.  The IndexEngine program processes and indexes a collection of documents from the LA Times document collection, totaling ~131,000 documents. It extracts key information and constructs an inverted index, offering optional stemming during the tokenization process. The resulting structured directory stores compressed documents, lexicon files, and an inverted index file. The InteractiveBM25 program utilizes the BM25 ranking algorithm to score and retrieve documents based on user queries, providing an interactive and dynamic search experience. The BM25 program implements the BM25 algorithm for information retrieval, taking command-line arguments and producing results in TREC format. Lastly, the ReportPerTopicEvalScore program evaluates the system's performance, calculating key metrics like Average Precision and Normalized Discounted Cumulative Gain. Together, these programs create a comprehensive search engine with indexing, retrieval, ranking, and evaluation capabilities.
